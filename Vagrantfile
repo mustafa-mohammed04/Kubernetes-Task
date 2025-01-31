@@ -26,17 +26,17 @@ end
 ```
 
 ## Check Vagrant
-``` bash
+
 vagrant validate
-```
+
 
 ## Run Vagrantfile
-``` bash
+
 vagrant up
 vagrant status
-```
+
 
 ## Remote 
-``` bash
+
 vagrant ssh
 ```

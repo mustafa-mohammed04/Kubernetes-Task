@@ -23,7 +23,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 end
 
-```
+
 
 ## Check Vagrant
 

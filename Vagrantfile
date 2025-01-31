@@ -1,5 +1,7 @@
-VAGRANTFILE_API_VERSION = "2"
+## Create Vagrantfile that depends on libvirt
 
+``` bash
+VAGRANTFILE_API_VERSION = "2"
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Specify the box to use
   config.vm.box = "generic/ubuntu2204"
@@ -20,3 +22,21 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     libvirt.disk_bus = "virtio"   # Use virtio for better disk performance
   end
 end
+
+```
+
+## Check Vagrant
+``` bash
+vagrant validate
+```
+
+## Run Vagrantfile
+``` bash
+vagrant up
+vagrant status
+```
+
+## Remote 
+``` bash
+vagrant ssh
+```
